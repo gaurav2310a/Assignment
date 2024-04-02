@@ -1,0 +1,29 @@
+ body
+    {
+        background-color: azure;
+    }
+    .img1
+    {
+        position: relative;
+        right: 20px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+         height: 300px; width: 400px; 
+    }
+    .img2
+    {
+        position: relative;
+        right: 20px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+         height: 300px; width: 400px; 
+    }
+.ordered
+{
+    list-style-type: decimal;
+    text-align: top;
+}

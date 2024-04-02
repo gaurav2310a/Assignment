@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.name
+{
+    
+    color: purple;
+    font-size: large;
+}
+.logo img 
+{
+    height: 50px;
+
+}
+
+nav
+{
+    text-align: right;
+    margin-left: 1050px;
+}
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.top-social
+{
+    background-color: black;
+    color: red;
+    height: 36px;
+    display: flex;
+    align-content: right;
+}
+.img-top{
+    width: 25px;
+    margin-right: 5px;
+}
+.banner {
+    background-image: url('college_logo.jpeg');
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: hotpink;
+}
+
+.about, .courses {
+    padding: 20px;
+    margin: 10px;
+}
+
+.about h2
+{
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: purple;
+    margin: 20px;
+}
+
+.form-group
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

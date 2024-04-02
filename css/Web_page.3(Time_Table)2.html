@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable 2024</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #000;
+            text-align: center;
+            padding: 5px;
+        }
+
+        h1 {
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            border: 1px solid #000;
+            margin: 0 auto;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        .container > div {
+            border: 1px solid #000;
+            padding: 5px;
+        }
+        .data {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  min-height: 36px;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.day {
+            background: #9c27b0;
+            color: white;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        @media only screen and (max-width:1430px){
+          .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            border: 1px solid #000;
+            margin: 0 auto;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        }
+        
+        @media only screen and (max-width:440px){
+          .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            border: 1px solid #000;
+            margin: 0 auto;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        }
+
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.name
+{
+    
+    color: purple;
+    font-size: large;
+}
+.logo img 
+{
+    height: 50px;
+
+}
+
+nav
+{
+    text-align: right;
+    margin-left: 1050px;
+}
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.top-social
+{
+    background-color: black;
+    color: red;
+    height: 36px;
+    display: flex;
+    align-content: right;
+}
+.img-top{
+    width: 25px;
+    margin-right: 5px;
+}
+.banner {
+    background-image: url('college_logo.jpeg');
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: hotpink;
+}
+
+.about, .courses {
+    padding: 20px;
+    margin: 10px;
+}
+
+.about h2
+{
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: purple;
+    margin: 20px;
+}
+
+.form-group
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+    </style>
+</head>
+<body>
+
+
+
+
+
+  <header>
+    <div class="logo">
+        <img src="college_logo.jpeg" alt="SPMC College Logo">
+        <div class="name">
+            <h1><b>Shyama Prasad Mukherji College for Women</b></h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="spmc.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Web_page.3(Time_Table)2.html">Time Table</a></li>
+            <li><a href="Student_login.html">Student LogIn</a></li>
+            <li><a href="contact_us.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="text-center">
+    <div class="top-header">
+        <div class="top-left-header">
+            <div class="top-social">
+                <a href="https://www.facebook.com/profile.php?id=100063981343873" target="blank">
+                    <img class="img-top" src ="https://spm.du.ac.in/templates/spm/images/facebook.png">
+                </a> 
+                <a href="https://www.instagram.com/spmcofficial/?hl=en">
+                    <img class="img-top" src="https://spm.du.ac.in/templates/spm/images/instagram.png">
+                </a>  
+                <a href="https://www.linkedin.com/school/shyama-prasad-mukherji-college-for-women/?originalSubdomain=in">
+                    <img class="img-top" src="https://spm.du.ac.in/templates/spm/images/linkedin.png">
+                </a>  
+                <a href="https://www.youtube.com/channel/UCBpnKrmrPJODKP-h5nh-Ybg" target="blank">
+                    <img class="img-top" src="https://spm.du.ac.in/templates/spm/images/youtube.png">
+                </a> 
+                <a href="https://twitter.com/SpmcollegeD" target="blank">
+                    <img class="img-top" src="https://spm.du.ac.in/templates/spm/images/twitter.png">
+                </a> 
+                <a target="_blank" href="https://spm.du.ac.in/blog/">
+                    <img class="img-top" src="https://spm.du.ac.in/templates/spm/images/blogger.png">
+                  </a>
+    <div class="search">
+        <div class="navbar-form pull-right ">
+    <form action="/index.php?lang=en" method="post" class="form-inline" role="search">
+    <div class="input-group add-on">
+        <input class="form-control" name="searchword" id="mod-search-searchword93" maxlength="200" type="search" placeholder="Search ...">
+         <div class="input-group-btn">
+    
+    
+        <button onclick="this.form.searchword.focus();">
+            <i class="glyphicon glyphicon-search"></i></button>
+        <i class="glyphicon glyphicon-search"></i>
+                  </div>
+                </div>		
+                <input type="hidden" name="task" value="search">
+    <input type="hidden" name="option" value="com_search">
+    <input type="hidden" name="Itemid" value="109">
+    </form>
+    </div>
+    
+                  </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1><b>Shyama Prasad Mukherjee</b><br>IV Semester TIMETABLE</h1>
+    <div class="container">
+      <div class="day-name">
+        <div class="day">Day</div>
+        <div class="data">MONDAY</div>
+        <div class="data">TUESDAY</div>
+        <div class="data">WEDNESDAY</div>
+        <div class="data">THURSDAY</div>
+        <div class="data">FRIDAY</div>
+      </div>
+      <div class="period1">
+        <div class="day">I</div>
+        <div class="data">History(31),Anita Mam,</div>
+        <div class="data">History(102),Anita Mam</div>
+        <div class="data">GE(41),Apam sir</div>
+        <div class="data">SEC(38),Mansi mam</div>
+        <div class="data">SEC(109),Mansi mam</div>
+      </div>
+      <div class="period2">
+        <div class="day">II</div>
+        <div class="data">GE(36),Apam sir</div>
+        <div class="data">Economics(30),Gita Mam</div>
+        <div class="data">Economics(102),Gita Mam</div>
+        <div class="data">GE(409),Apam sir</div>
+        <div class="data">History(409),Anita mam</div>
+      </div>
+      <div class="period3">
+        <div class="day">III</div>
+        <div class="data">Economics(204),Gita Mam</div>
+        <div class="data">Economics(402),Vaishali mam</div>
+        <div class="data">History(204),Anita mam</div>
+        <div class="data">Economics(28),Gita mam</div>
+        <div class="data">NO CLASS</div>
+       </div>
+
+       <div class="period4">
+        <div class="day">IV</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">GE(37),Shreya mam</div>
+        </div>
+        <div class="period5">
+        <div class="day">V</div>
+        <div class="data">VAC(N1),Garima Mam</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">Economics(310),Vaishali mam</div>
+        <div class="data">Economics(310),Vaishali mam</div>
+        <div class="data">NO CLASS</div>
+        </div>
+        <div class="period6">
+        <div class="day">VI</div>
+        <div class="data">EVS(401),Shivesh Sir</div>
+        <div class="data">EVS(hall 2),Sanyogita mam</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">Economics(31),Vaishali Mam</div>
+        </div>
+        <div class="period7">
+        <div class="day">VII</div>
+        <div class="data">Economics(29),Vaishali Mam</div>
+        <div class="data">SEC(38),MANSI Mam</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">VAC(209),Garima Mam</div>
+        <div class="data">NO CLASS</div>
+        </div>
+        <div class="period8">
+        <div class="day">VIII</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">SEC(38),MANSI Mam</div>
+        <div class="data">NO CLASS</div>
+        <div class="data">VAC(209),Garima Mam</div>
+        <div class="data">NO CLASS</div>
+        </div>
+    </div>
+</body>
+</html>
